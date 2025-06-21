@@ -28,10 +28,3 @@ class CrisMorris:
         print(f"Afecto: {self.afecto}")
         print(f"Alimento: {self.alimento}")
         self.mostrar_inventario()
-
-
-class Item:
-    def __init__(self, id, nombre, descripcion):
-        self.id = id
-        self.nombre = nombre
-        self.descripcion = descripcion
